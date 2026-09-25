@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="البحيرة عبر العصور - موقع تفاعلي يستعرض تاريخ محافظة البحيرة ومدنها وتراثها ومعالمها.">
+  <title>البحيرة عبر العصور | Ahmed Osama</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page-bg"></div>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="site-header" id="home">
+    <div class="nav-shell">
+      <a class="brand" href="#home" aria-label="البحيرة عبر العصور">
+        <span class="brand-mark">ب</span>
+        <span>
+          <strong>البحيرة عبر العصور</strong>
+          <small>تاريخ • تراث • حضارة</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+
+      <nav class="main-nav" id="mainNav">
+        <a class="active" href="#home">الرئيسية</a>
+        <a href="#history">التاريخ</a>
+        <a href="#timeline">الخط الزمني</a>
+        <a href="#cities">المدن</a>
+        <a href="#landmarks">المعالم</a>
+        <a href="#gallery">معرض الصور</a>
+        <a href="#sources">المصادر</a>
+        <a href="#figures">شخصيات صنعت أثرًا</a>
+      </nav>
+
+      <button class="theme-btn" id="themeBtn" title="تبديل المظهر">☾</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero section" aria-labelledby="heroTitle">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span></span> موسوعة رقمية عن أرض البحيرة</div>
+        <h1 id="heroTitle">محافظة البحيرة</h1>
+        <h2>البحيرة عبر العصور</h2>
+        <p>من مدن الدلتا وطرق التجارة القديمة إلى رشيد ودمنهور وإدكو؛ رحلة بصرية تحكي طبقات من التاريخ والتراث والطبيعة.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#history">ابدأ الرحلة <span>←</span></a>
+          <a class="btn ghost" href="#timeline">شاهد الخط الزمني</a>
+        </div>
+      </div>
+
+      <div class="hero-stats reveal">
+        <div><strong>9.83</strong><span>ألف كم² تقريبًا</span></div>
+        <div><strong>15</strong><span>مركزًا إداريًا</span></div>
+        <div><strong>19 سبتمبر</strong><span>العيد القومي</span></div>
+      </div>
+
+      <div class="scroll-cue">مرّر لاكتشاف التاريخ <span>↓</span></div>
+    </section>
+
+    <section class="section intro" id="history">
+      <div class="section-heading reveal">
+        <span class="section-kicker">01 • الحكاية</span>
+        <h2>البحيرة... تاريخ تشكّل بين النيل والبحر</h2>
+        <p>تقع البحيرة في غرب دلتا النيل، وتجمع بين الزراعة والمجال الساحلي والمدن ذات الذاكرة التاريخية الممتدة.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="glass-card large reveal">
+          <div class="card-icon">⌛</div>
+          <h3>منطقة ذات طبقات تاريخية</h3>
+          <p>
+            ارتبطت أرض البحيرة تاريخيًا بموقعها في غرب الدلتا وبالمجاري المائية والمدن الساحلية.
+            وتبرز رشيد خصوصًا كمدينة تاريخية عند مصب فرع رشيد، بينما أصبحت دمنهور عاصمة المحافظة ومركزًا إداريًا مهمًا.
+          </p>
+          <div class="card-line"></div>
+          <span class="tag">الدلتا المصرية</span>
+        </article>
+
+        <article class="glass-card reveal">
+          <div class="card-icon">🌊</div>
+          <h3>بين النيل والبحر المتوسط</h3>
+          <p>يجمع موقع المحافظة بين الأراضي الزراعية، وفرع رشيد، والساحل المتوسطي، وهو ما صنع تنوعًا طبيعيًا واقتصاديًا واضحًا.</p>
+          <div class="mini-stat"><b>غرب الدلتا</b><span>الموقع الجغرافي</span></div>
+        </article>
+
+        <article class="glass-card reveal">
+          <div class="card-icon">🌾</div>
+          <h3>الزراعة والاقتصاد</h3>
+          <p>تحتل الزراعة مكانة مهمة في هوية البحيرة، مع حضور للأنشطة الصناعية والتجارية والصيد والموانئ.</p>
+          <div class="mini-stat"><b>زراعة + صناعة</b><span>تنوع اقتصادي</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section history-section">
+      <div class="split">
+        <div class="history-image reveal">
+          <img src="images/beheira_mural.png" alt="أرض البحيرة • الطبيعة والإنسان">
+          <div class="image-label">أرض البحيرة • الطبيعة والإنسان</div>
+        </div>
+
+        <div class="history-copy reveal">
+          <span class="section-kicker">02 • النشأة والتطور</span>
+          <h2>كيف تشكّلت هوية البحيرة؟</h2>
+          <p>
+            لم تظهر هوية البحيرة في لحظة واحدة؛ بل تشكلت عبر تفاعل الجغرافيا مع العمران والإدارة
+            والطرق التجارية. ومع تطور نظام المحافظات في مصر الحديثة أصبحت البحيرة وحدة إدارية
+            لها عاصمتها ومراكزها ومدنها وقراها.
+          </p>
+
+          <div class="facts">
+            <div><b>العاصمة</b><span>دمنهور</span></div>
+            <div><b>الإقليم</b><span>غرب الدلتا</span></div>
+            <div><b>الحد الشمالي</b><span>البحر المتوسط</span></div>
+            <div><b>أبرز مدن التراث</b><span>رشيد</span></div>
+          </div>
+
+          <div class="notice">
+            <strong>ملاحظة تاريخية</strong>
+            <span>يركّز الموقع على محطات موثقة ومشهورة في تاريخ الإقليم، مع التفريق بين تاريخ المدن وتاريخ المحافظة كوحدة إدارية حديثة.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="section-heading reveal">
+        <span class="section-kicker">03 • الخط الزمني</span>
+        <h2>محطات من الذاكرة</h2>
+        <p>اضغط على أي محطة لعرض تفاصيلها.</p>
+      </div>
+
+      <div class="timeline">
+        <button class="timeline-item reveal" data-title="العصور القديمة" data-text="كانت منطقة الدلتا الغربية مرتبطة بالمجاري المائية والمستوطنات والطرق التي ربطت مناطق مصر المختلفة. وتظهر رشيد في المصادر التاريخية كمدينة ذات جذور قديمة.">
+          <span class="year">العصور القديمة</span>
+          <span class="dot"></span>
+          <span class="timeline-text">جذور مبكرة للمدن والممرات المائية في غرب الدلتا.</span>
+        </button>
+
+        <button class="timeline-item reveal" data-title="العصر القبطي والفتح العربي" data-text="تذكر المصادر الرسمية أن رشيد عُرفت في العصر القبطي باسم رشيت، ثم ارتبط اسمها باسم رشيد بعد الفتح العربي، واستمرت المدينة كميناء على فرع النيل.">
+          <span class="year">العصر القبطي / الإسلامي</span>
+          <span class="dot"></span>
+          <span class="timeline-text">تحولات الاسم والعمران واستمرار أهمية رشيد.</span>
+        </button>
+
+        <button class="timeline-item reveal" data-title="العصر العثماني" data-text="ازدهرت رشيد بعمران مدني مميز، وتبقى منازلها ومساجدها الأثرية من أهم شواهد العمارة الإسلامية في المدينة.">
+          <span class="year">العصر العثماني</span>
+          <span class="dot"></span>
+          <span class="timeline-text">عمارة تراثية ومنازل ومساجد تاريخية في رشيد.</span>
+        </button>
+
+        <button class="timeline-item featured reveal" data-title="1807 — حملة فريزر" data-text="في 1807 ارتبطت رشيد بمحطة مهمة في التاريخ الوطني المصري عندما واجه أهل المدينة الحملة الإنجليزية بقيادة فريزر، وأصبحت ذكرى جلاء الحملة جزءًا من العيد القومي لمحافظة البحيرة في 19 سبتمبر.">
+          <span class="year">1807</span>
+          <span class="dot"></span>
+          <span class="timeline-text">رشيد ومواجهة حملة فريزر الإنجليزية.</span>
+        </button>
+
+        <button class="timeline-item reveal" data-title="مصر الحديثة" data-text="مع تطور الإدارة المحلية الحديثة أصبحت دمنهور عاصمة محافظة البحيرة، وتوزعت المحافظة إلى مراكز ومدن ووحدات محلية وقرى.">
+          <span class="year">مصر الحديثة</span>
+          <span class="dot"></span>
+          <span class="timeline-text">ترسيخ البناء الإداري الحديث للمحافظة.</span>
+        </button>
+
+        <button class="timeline-item reveal" data-title="البحيرة اليوم" data-text="تجمع المحافظة اليوم بين الزراعة والصناعة والأنشطة الساحلية، إلى جانب مشروعات تطوير البنية الأساسية وإحياء المناطق التراثية في رشيد.">
+          <span class="year">اليوم</span>
+          <span class="dot"></span>
+          <span class="timeline-text">تراث محفوظ بالتوازي مع التنمية الحديثة.</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section dark-band" id="cities">
+      <div class="section-heading light reveal">
+        <span class="section-kicker">04 • المدن</span>
+        <h2>مدن تحمل قصصًا مختلفة</h2>
+        <p>مجموعة مختارة من المدن والمراكز ذات الحضور التاريخي والجغرافي في البحيرة.</p>
+      </div>
+
+      <div class="city-grid">
+        <article class="city-card reveal">
+          <img src="images/أين_تقع_دمنهور.jpg" alt="دمنهور - صورة تمثيلية">
+          <div><span>العاصمة</span><h3>دمنهور</h3><p>عاصمة المحافظة ومركز حضري رئيسي في غرب الدلتا.</p></div>
+        </article>
+
+        <article class="city-card reveal">
+          <img src="images/رشيد.webp" alt="رشيد - صورة تمثيلية">
+          <div><span>مدينة تاريخية</span><h3>رشيد</h3><p>مدينة ساحلية عند مصب فرع رشيد، تشتهر بتراثها المعماري وتاريخها الوطني.</p></div>
+        </article>
+
+        <article class="city-card reveal">
+          <img src="images/photo0jpg.jpg" alt="إدكو - صورة تمثيلية">
+          <div><span>الساحل</span><h3>إدكو</h3><p>من مدن شمال البحيرة المرتبطة بالبحيرة الساحلية والأنشطة المحلية.</p></div>
+        </article>
+
+        <article class="city-card reveal">
+          <img src="images/كفر الدوار.jfif" alt="كفر الدوار -صورة تمثيلية">
+          <div><span>مركز حضري</span><h3>كفر الدوار</h3><p>مدينة صناعية وتجارية بارزة ضمن مدن المحافظة.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="landmarks">
+      <div class="section-heading reveal">
+        <span class="section-kicker">05 • التراث</span>
+        <h2>معالم تستحق أن تُروى</h2>
+      </div>
+
+      <div class="landmark-grid">
+        <article class="landmark-card reveal">
+          <img src="images/متحف رشيد القومي.jpg" alt="مبنى تراثي - صورة تمثيلية">
+          <div><span>رشيد</span><h3>متحف رشيد القومي</h3><p>يقع في مبنى أثري ويضم مواد توثق تاريخ رشيد وتراثها، ومنها نسخة من حجر رشيد.</p></div>
+        </article>
+
+        <article class="landmark-card reveal">
+          <div class="landmark-number">01</div>
+          <a href="https://ichef.bbci.co.uk/images/ic/512xn/p0d2p15r.jpg.webp"><h3>حجر رشيد</h3></a>
+          <p>ارتبط اسم رشيد عالميًا بالحجر الذي ساعدت نصوصه على فهم الكتابة المصرية القديمة، بينما توجد نسخة منه ضمن مقتنيات متحف رشيد القومي.</p>
+        </article>
+
+        <article class="landmark-card reveal">
+          <div class="landmark-number">02</div>
+          <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ6IX6W1x1izRaP5zJKtXTMM4n29ZWZBLWZSrQSpYG4g&s=10"><h3>منازل رشيد الأثرية</h3></a>
+          <p>تضم المدينة مجموعة من المنازل التراثية التي تعكس العمارة السكنية الإسلامية والعثمانية، ومن بينها منزل الأمصيلي.</p>
+        </article>
+
+        <article class="landmark-card reveal">
+          <div class="landmark-number">03</div>
+          <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_dRicEm3--96Q1yIKGpZsN6QP_guLvk16XVzzGB2leQ&s=10"><h3>قناطر إدفينا</h3></a>
+          <p>من المعالم المرتبطة بالمشهد المائي في البحيرة، وتقع على فرع رشيد بالقرب من مصبه في البحر المتوسط.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section stats-section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">06 • أرقام سريعة</span>
+        <h2>البحيرة في أرقام</h2>
+      </div>
+
+      <div class="numbers-grid">
+        <div class="number-card reveal"><strong data-count="15">0</strong><span>مركزًا</span></div>
+        <div class="number-card reveal"><strong data-count="15">0</strong><span>مدينة</span></div>
+        <div class="number-card reveal"><strong data-count="91">0</strong><span>وحدة محلية قروية</span></div>
+        <div class="number-card reveal"><strong data-count="19">0</strong><span>سبتمبر • العيد القومي</span></div>
+      </div>
+      <p class="source-note">الأرقام الإدارية وفق بيانات منشورة على بوابة الهيئة العامة للاستعلامات، مع تحديثات المصدر المتاحة حتى 2026.</p>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading reveal">
+        <span class="section-kicker">07 • معرض الصور</span>
+        <h2>مشاهد من روح البحيرة</h2>
+        <p>صور تمثيلية قابلة للاستبدال بصورك الحقيقية للمحافظة ومدنها.</p>
+      </div>
+
+      <div class="gallery">
+        <button class="gallery-item wide reveal" data-img="images/مرج البحرين.jfif" data-caption="طبيعة ومياه — صورة تمثيلية">
+          <img src="images/مرج البحرين.jfif" alt="طبيعة ومياه">
+          <span>طبيعة ومياه</span>
+        </button>
+        <button class="gallery-item reveal" data-img="images/مدن البحيرة.png" data-caption="مشهد حضري — صورة تمثيلية">
+          <img src="images/مدن البحيرة.png" alt="مشهد حضري">
+          <span>مدن البحيرة</span>
+        </button>
+        <button class="gallery-item reveal" data-img="images/منزل_الأمصيلي11.jpg" data-caption="تراث معماري — صورة تمثيلية">
+          <img src="images/منزل_الأمصيلي11.jpg" alt="تراث معماري">
+          <span>التراث</span>
+        </button>
+        <button class="gallery-item reveal" data-img="images/أراضي-زراعية-.jpg" data-caption="أرض زراعية — صورة تمثيلية">
+          <img src="images/أراضي-زراعية-.jpg" alt="أرض زراعية">
+          <span>الزراعة</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <div class="quote-card reveal">
+        <span class="quote-mark">“</span>
+        <p>محافظة البحيرة ليست صفحة واحدة من التاريخ؛ إنها مجموعة مدن وقرى وطرق مائية وذاكرة عمرانية تشكلت عبر قرون.</p>
+        <span class="quote-line"></span>
+        <small>البحيرة عبر العصور</small>
+      </div>
+    </section>
+
+    <section class="section sources-section" id="sources">
+      <div class="section-heading reveal">
+        <span class="section-kicker">08 • المصادر</span>
+        <h2>مصادر المعلومات</h2>
+        <p>تم الاعتماد على مصادر حكومية مصرية للمعلومات التاريخية والإدارية الأساسية.</p>
+      </div>
+
+      <div class="source-grid">
+        <a class="source-card reveal" href="https://sis.gov.eg/ar/مصر/نظام-الحكم/السلطة-التنفيذية/محافظة-البحيرة/" target="_blank" rel="noopener">
+          <span>مصدر رسمي</span><h3>الهيئة العامة للاستعلامات — محافظة البحيرة</h3><b>فتح المصدر ↗</b>
+        </a>
+        <a class="source-card reveal" href="https://sis.gov.eg/ar/مصر/السياحة/أهم-المدن-والمواقع-السياحية/رشيد/" target="_blank" rel="noopener">
+          <span>تاريخ رشيد</span><h3>الهيئة العامة للاستعلامات — رشيد</h3><b>فتح المصدر ↗</b>
+        </a>
+        <a class="source-card reveal" href="https://sis.gov.eg/ar/المركز-الإعلامي/الأخبار/رئيس-الوزراء-يتفقد-عدداً-من-المشروعات-الخدمية-والتنموية-بمحافظة-البحيرة/" target="_blank" rel="noopener">
+          <span>تحديثات حديثة</span><h3>تطوير رشيد ومشروعات المحافظة</h3><b>فتح المصدر ↗</b>
+        </a>
+      </div>
+    </section>
+
+  
+    <!-- إضافة جديدة فقط: شخصيات تاريخية مرتبطة بالبحيرة، دون تعديل على الأقسام السابقة -->
+    <section class="section figures-section" id="figures">
+      <div class="section-heading reveal">
+        <span class="section-kicker">09 • شخصيات</span>
+        <h2>شخصيات صنعت أثرًا</h2>
+        <p>مجموعة من الأسماء التي ترتبط بتاريخ مصر الثقافي والعلمي والفكري، وتظهر ضمن حكاية البحيرة وأعلامها.</p>
+      </div>
+
+      <div class="figures-grid">
+        <article class="figure-card reveal">
+          <div class="figure-photo">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Muhammad%20Abduh.jpg" alt="الإمام محمد عبده" loading="lazy">
+            <span class="figure-badge">فكر وإصلاح</span>
+          </div>
+          <div class="figure-body">
+            <h3>محمد عبده</h3>
+            <p>مفكر ومصلح إسلامي مصري، ومن أبرز الأسماء الفكرية المرتبطة بتاريخ الإصلاح الديني والفكري في مصر.</p>
+            <a href="https://commons.wikimedia.org/wiki/File:Muhammad_Abduh.jpg" target="_blank" rel="noopener">مصدر الصورة ↗</a>
+          </div>
+        </article>
+
+        <article class="figure-card reveal">
+          <div class="figure-photo">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84%D9%8A.jpg" alt="الشيخ محمد الغزالي" loading="lazy">
+            <span class="figure-badge">فكر ودعوة</span>
+          </div>
+          <div class="figure-body">
+            <h3>محمد الغزالي</h3>
+            <p>عالم ومفكر مصري من أبرز علماء القرن العشرين، وله حضور واسع في الفكر والدعوة والكتابة الإسلامية.</p>
+            <a href="https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84%D9%8A.jpg" target="_blank" rel="noopener">مصدر الصورة ↗</a>
+          </div>
+        </article>
+
+        <article class="figure-card reveal featured-figure">
+          <div class="figure-photo">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ahmed%20Zewail%20HD2009%20Othmer%20Gold%20Medal%20portrait.JPG" alt="الدكتور أحمد زويل" loading="lazy">
+            <span class="figure-badge">علم وابتكار</span>
+          </div>
+          <div class="figure-body">
+            <h3>أحمد زويل</h3>
+            <p>عالم كيمياء مصري حاز جائزة نوبل في الكيمياء عام 1999، وأصبح اسمه جزءًا بارزًا من تاريخ العلم المصري الحديث.</p>
+            <a href="https://commons.wikimedia.org/wiki/File:Ahmed_Zewail_HD2009_Othmer_Gold_Medal_portrait.JPG" target="_blank" rel="noopener">مصدر الصورة ↗</a>
+          </div>
+        </article>
+
+        <article class="figure-card reveal">
+          <div class="figure-photo">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/%D8%AA%D9%88%D9%81%D9%8A%D9%82_%D8%A7%D9%84%D8%AD%D9%83%D9%8A%D9%85.jpg" alt="الأديب توفيق الحكيم" loading="lazy">
+            <span class="figure-badge">أدب ومسرح</span>
+          </div>
+          <div class="figure-body">
+            <h3>توفيق الحكيم</h3>
+            <p>أديب ومسرحي مصري من رواد الأدب العربي الحديث، وصاحب أثر مهم في تطور المسرح والكتابة الأدبية المصرية.</p>
+            <a href="https://commons.wikimedia.org/wiki/File:%D8%AA%D9%88%D9%81%D9%8A%D9%82_%D8%A7%D9%84%D8%AD%D9%83%D9%8A%D9%85.jpg" target="_blank" rel="noopener">مصدر الصورة ↗</a>
+          </div>
+        </article>
+
+        <article class="figure-card reveal">
+          <div class="figure-photo">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mahmoud%20Sami%20Al%20Baroudy%20Pasha.jpg" alt="محمود سامي البارودي" loading="lazy">
+            <span class="figure-badge">شعر وسياسة</span>
+          </div>
+          <div class="figure-body">
+            <h3>محمود سامي البارودي</h3>
+            <p>شاعر ورجل دولة مصري، ويُعد من أبرز رواد مدرسة الإحياء والبعث في الشعر العربي الحديث.</p>
+            <a href="https://commons.wikimedia.org/wiki/File:Mahmoud_Sami_Al_Baroudy_Pasha.jpg" target="_blank" rel="noopener">مصدر الصورة ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>البحيرة عبر العصور</strong>
+      <span>مشروع تعريفي وتاريخي عن محافظة البحيرة</span>
+    </div>
+    <div class="developer">AHMED OSAMA <span>DEVELOPED BY</span></div>
+    <div class="footer-links"><a href="#home">العودة للأعلى ↑</a></div>
+  </footer>
+
+  <div class="modal" id="infoModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose">×</button>
+      <span class="section-kicker">محطة تاريخية</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <div class="modal image-modal" id="imageModal" aria-hidden="true">
+    <div class="image-modal-box">
+      <button class="modal-close" id="imageModalClose">×</button>
+      <img id="modalImage" src="" alt="">
+      <p id="modalCaption"></p>
+    </div>
+  </div>
+
+  <button class="to-top" id="toTop" aria-label="العودة للأعلى">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
