@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="البحيرة عبر العصور - موقع تعريفي بمحافظة البحيرة وتاريخها ومعالمها.">
+  <title>البحيرة عبر العصور</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-bg"></div>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="#home"><span class="brand-mark">ب</span><span><strong>البحيرة عبر العصور</strong><small>تاريخ • تراث • حضارة</small></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">الرئيسية</a><a href="#history">التاريخ</a><a href="#cities">المدن والقرى</a><a href="#landmarks">المعالم</a><a href="#gallery">الصور</a><a href="#figures">الشخصيات</a><a href="#admin">مراجعة الاقتراحات</a>
+      </nav>
+      <button class="theme-btn" id="themeBtn" title="تبديل المظهر">☾</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">موسوعة رقمية عن أرض البحيرة</span>
+        <h1>محافظة البحيرة</h1><h2>البحيرة عبر العصور</h2>
+        <p>رحلة بين تاريخ غرب الدلتا، ومدنها وقراها، ومعالمها، وشخصياتها المؤثرة.</p>
+        <div class="hero-actions"><a class="btn primary" href="#history">ابدأ الرحلة ←</a><a class="btn ghost" href="#cities">اكتشف المدن والقرى</a></div>
+        <div class="hero-stats"><div><strong>دمنهور</strong><span>عاصمة المحافظة</span></div><div><strong>غرب الدلتا</strong><span>الموقع الجغرافي</span></div><div><strong>19 سبتمبر</strong><span>العيد القومي</span></div></div>
+      </div>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+
+    <section class="section" id="history">
+      <div class="section-heading"><span class="section-kicker">01 • الحكاية</span><h2>البحيرة... تاريخ تشكّل بين النيل والبحر</h2><p>تجمع المحافظة بين الأراضي الزراعية والمدن التاريخية والمجال الساحلي.</p></div>
+      <div class="feature-grid">
+        <article class="glass-card large"><div class="card-icon">⌛</div><h3>منطقة ذات طبقات تاريخية</h3><p>ارتبطت أرض البحيرة بموقعها في غرب الدلتا وبالمجاري المائية والطرق التجارية، وتبرز رشيد كمدينة تاريخية عند مصب فرع رشيد.</p><span class="tag">الدلتا المصرية</span></article>
+        <article class="glass-card"><div class="card-icon">🌊</div><h3>بين النيل والبحر المتوسط</h3><p>يصنع موقع المحافظة تنوعًا طبيعيًا واقتصاديًا بين الأراضي الزراعية وفرع رشيد والساحل.</p><div class="mini-stat"><b>غرب الدلتا</b><span>الموقع الجغرافي</span></div></article>
+        <article class="glass-card"><div class="card-icon">🌾</div><h3>الزراعة والاقتصاد</h3><p>تحتل الزراعة مكانة مهمة في هوية البحيرة إلى جانب الأنشطة الصناعية والتجارية والصيد.</p><div class="mini-stat"><b>زراعة + صناعة</b><span>تنوع اقتصادي</span></div></article>
+      </div>
+      <div class="timeline">
+        <button class="timeline-item" data-title="العصور القديمة" data-text="ارتبطت مناطق غرب الدلتا بالمجاري المائية والمستوطنات والطرق التي ربطت أجزاء مصر المختلفة."><span class="year">العصور القديمة</span><span class="dot"></span><span class="timeline-text">جذور مبكرة للمدن والممرات المائية في غرب الدلتا.</span></button>
+        <button class="timeline-item" data-title="العصر الإسلامي" data-text="استمرت أهمية رشيد بسبب موقعها على فرع النيل، ثم ازدهر عمرانها في فترات تاريخية متعددة."><span class="year">العصر الإسلامي</span><span class="dot"></span><span class="timeline-text">تحولات عمرانية واستمرار أهمية رشيد.</span></button>
+        <button class="timeline-item featured" data-title="1807 — حملة فريزر" data-text="ارتبطت رشيد بمواجهة الحملة الإنجليزية بقيادة فريزر عام 1807، وأصبحت ذكرى جلاء الحملة جزءًا من العيد القومي للبحيرة."><span class="year">1807</span><span class="dot"></span><span class="timeline-text">رشيد ومواجهة حملة فريزر الإنجليزية.</span></button>
+        <button class="timeline-item" data-title="مصر الحديثة" data-text="أصبحت دمنهور عاصمة محافظة البحيرة، وتوزعت المحافظة إلى مراكز ومدن ووحدات محلية وقرى."><span class="year">مصر الحديثة</span><span class="dot"></span><span class="timeline-text">ترسيخ البناء الإداري الحديث للمحافظة.</span></button>
+      </div>
+    </section>
+
+    <section class="section dark-band" id="cities">
+      <div class="section-heading light"><span class="section-kicker">02 • المدن والقرى</span><h2>أماكن تحمل قصصًا مختلفة</h2><p>اختر مكانًا لقراءة نبذة عنه.</p></div>
+      <div class="city-grid" id="citiesGrid">
+        <article class="city-card"><div class="city-art art-damanhour">د</div><div><span>العاصمة</span><h3>دمنهور</h3><p>عاصمة المحافظة ومركز حضري رئيسي في غرب الدلتا.</p></div></article>
+        <article class="city-card"><div class="city-art art-rasheed">ر</div><div><span>مدينة تاريخية</span><h3>رشيد</h3><p>مدينة تشتهر بتراثها المعماري وتاريخها الوطني وموقعها على فرع النيل.</p></div></article>
+        <article class="city-card"><div class="city-art art-edko">إ</div><div><span>الساحل</span><h3>إدكو</h3><p>من مدن شمال البحيرة المرتبطة بالبحيرة الساحلية والأنشطة المحلية.</p></div></article>
+        <article class="city-card"><div class="city-art art-kafr">ك</div><div><span>مركز حضري</span><h3>كفر الدوار</h3><p>مدينة صناعية وتجارية بارزة ضمن مدن المحافظة.</p></div></article>
+        <article class="city-card abqain-card"><div class="city-art art-abqain">أ</div><div><span>قرية وموقع أثري قريب</span><h3>الأبقعين</h3><p>قرية تتبع مركز حوش عيسى، ويقع بالقرب منها تل آثار الأبقعين المرتبط بحصن عسكري من الدولة الحديثة.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="landmarks">
+      <div class="section-heading"><span class="section-kicker">03 • التراث</span><h2>معالم تستحق أن تُروى</h2></div>
+      <div class="landmark-grid" id="landmarksGrid">
+        <article class="landmark-card"><div class="landmark-icon">🏛️</div><span>رشيد</span><h3>متحف رشيد القومي</h3><p>متحف في مبنى أثري يضم مواد توثق تاريخ رشيد وتراثها.</p></article>
+        <article class="landmark-card"><div class="landmark-icon">🪨</div><span>تاريخ عالمي</span><h3>حجر رشيد</h3><p>ارتبط اسم رشيد عالميًا بالحجر الذي ساعد على فهم الكتابة المصرية القديمة؛ وتوجد نسخة منه في متحف رشيد القومي.</p></article>
+        <article class="landmark-card"><div class="landmark-icon">🏠</div><span>عمارة تراثية</span><h3>منازل رشيد الأثرية</h3><p>تعكس مجموعة من المنازل التراثية العمارة السكنية الإسلامية والعثمانية، ومنها منزل الأمصيلي.</p></article>
+        <article class="landmark-card"><div class="landmark-icon">🌉</div><span>منشأة مائية</span><h3>قناطر إدفينا</h3><p>من المعالم المرتبطة بالمشهد المائي على فرع رشيد بالقرب من مصبه في البحر المتوسط.</p></article>
+        <article class="landmark-card abqain-landmark"><div class="landmark-icon">🏺</div><span>حوش عيسى</span><h3>تل آثار الأبقعين</h3><p>موقع أثري مرتبط بحصن عسكري من عصر الدولة الحديثة. تذكر تقارير الاكتشافات منشآت من الطوب اللبن ومرافق للتخزين والإمداد.</p></article>
+      </div>
+    </section>
+
+    <section class="section stats-section" id="gallery">
+      <div class="section-heading"><span class="section-kicker">04 • معرض مصغّر</span><h2>مشاهد من روح البحيرة</h2><p>يمكنك اقتراح صور جديدة من خلال زر الإضافة الجانبي.</p></div>
+      <div class="gallery-grid"><div class="gallery-tile">🌾<span>الزراعة</span></div><div class="gallery-tile">🏘️<span>المدن والقرى</span></div><div class="gallery-tile">🏛️<span>التراث</span></div><div class="gallery-tile">🌊<span>المياه والطبيعة</span></div></div>
+    </section>
+
+    <section class="section" id="figures">
+      <div class="section-heading"><span class="section-kicker">05 • شخصيات</span><h2>شخصيات صنعت أثرًا</h2><p>يمكن اقتراح إضافة شخصية مع نبذة واضحة عنها.</p></div>
+      <div class="feature-grid"><article class="glass-card"><div class="card-icon">📚</div><h3>محمد عبده</h3><p>مفكر ومصلح إسلامي مصري من أبرز الأسماء المرتبطة بتاريخ الإصلاح الفكري.</p></article><article class="glass-card"><div class="card-icon">🔬</div><h3>أحمد زويل</h3><p>عالم كيمياء مصري حاز جائزة نوبل في الكيمياء عام 1999.</p></article><article class="glass-card"><div class="card-icon">✍️</div><h3>توفيق الحكيم</h3><p>أديب ومسرحي مصري من رواد الأدب العربي الحديث.</p></article></div>
+    </section>
+
+    <section class="section admin-section" id="admin">
+      <div class="section-heading"><span class="section-kicker">06 • مساحة صاحب الموقع</span><h2>مراجعة الاقتراحات</h2><p>هنا تظهر الاقتراحات التي اجتازت الفحص الآلي المبدئي. راجع النص، وعدّله عند الحاجة، ثم اضغط «حفظ التعديل» وبعدها «موافقة ونشر» أو «رفض».</p></div>
+      <div class="admin-toolbar"><span id="pendingCount" class="count-pill">0 اقتراحات بانتظار المراجعة</span><button class="btn ghost" id="clearDemo">مسح بيانات التجربة</button></div>
+      <div id="reviewList" class="review-list"><p class="empty-state">لا توجد اقتراحات حاليًا. جرّب زر «أضف معلومة» الموجود على جانب الصفحة.</p></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div><strong>البحيرة عبر العصور</strong><span>مشروع تعريفي وتاريخي عن محافظة البحيرة</span></div><div class="developer">مشروع مدرسي <span>HTML • CSS • JavaScript</span></div><a href="#home">العودة للأعلى ↑</a></footer>
+
+  <button class="floating-add" id="openAdd" aria-label="إضافة معلومة"><span class="float-icon">＋</span><span class="float-label">أضف معلومة</span></button>
+
+  <div class="modal" id="welcomeModal" aria-hidden="true">
+    <div class="modal-box compact"><button class="modal-close" data-close="welcomeModal">×</button><div class="modal-symbol">✦</div><h2>هل تريد إضافة معلومة جديدة؟</h2><p>هنفحصها آليًا فحصًا مبدئيًا للتأكد من أنها تبدو معلومة مرتبطة بالبحيرة وليست مكررة أو خارج الموضوع، ثم تصل إليك للمراجعة والتعديل واتخاذ قرار النشر.</p><div class="modal-actions"><button class="btn primary" id="startSuggestion">أيوه، أضف معلومة</button><button class="btn ghost" data-close="welcomeModal">ليس الآن</button></div></div>
+  </div>
+
+  <div class="modal" id="suggestModal" aria-hidden="true">
+    <div class="modal-box form-modal"><button class="modal-close" data-close="suggestModal">×</button><span class="section-kicker">اقتراح جديد</span><h2>أضف معلومة للموسوعة</h2>
+      <form id="suggestForm">
+        <label for="suggestType">المعلومة تخص إيه؟</label><select id="suggestType" required><option value="">اختار القسم</option><option value="history">معلومة تاريخية</option><option value="city">مدينة أو قرية</option><option value="landmark">معلم أو موقع أثري</option><option value="figure">شخصية</option><option value="image">صورة</option></select>
+        <label for="suggestTitle">عنوان المعلومة</label><input id="suggestTitle" required maxlength="100" placeholder="مثال: تل آثار الأبقعين">
+        <label for="suggestDescription">وصف المعلومة</label><textarea id="suggestDescription" required minlength="15" maxlength="2000" placeholder="اكتب المعلومة بالتفصيل..."></textarea>
+        <label for="suggestSource">المصدر (اختياري)</label><input id="suggestSource" type="url" placeholder="لو عندك رابط مصدر اكتبه هنا">
+        <div class="form-note">المصدر اختياري. يجري الموقع فحصًا آليًا تجريبيًا للمحتوى والتكرار والارتباط بالبحيرة؛ هذا الفحص ليس خدمة ذكاء اصطناعي متصلة ولا يثبت صحة المعلومة تاريخيًا.</div>
+        <div id="matchResult" class="match-result hidden" aria-live="polite"></div>
+        <div class="modal-actions"><button type="submit" class="btn primary">فحص المعلومة وإرسالها</button><button type="button" class="btn ghost" data-close="suggestModal">إلغاء</button></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="infoModal" aria-hidden="true"><div class="modal-box"><button class="modal-close" data-close="infoModal">×</button><span class="section-kicker">تفاصيل</span><h2 id="infoTitle"></h2><p id="infoText"></p></div></div>
+  <button class="to-top" id="toTop" aria-label="العودة للأعلى">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
